@@ -61,9 +61,9 @@ if(keyDown === LEFT_ARROW){
 cat.velocity = -5;
 cat.addAnimation("catRunning",catImg2);
 cat.changeAnimation("catRunning");
-}
 
 mouse.addAnimation("mouseTeasing",mouseImg2);
-//mouse.frameDelay = 25;
+mouse.frameDelay = 25;
 mouse.changeAnimation("mouseTeasing");
+}
 }
