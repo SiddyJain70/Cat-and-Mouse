@@ -47,7 +47,8 @@ function draw() {
         mouse.addAnimation("mouseLastImage",mouseImg3);
         mouse.scale=0.15;
         mouse.changeAnimation("mouseLastImage");
-
+        
+        keyPressed();
     }
     drawSprites();
 }
